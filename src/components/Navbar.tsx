@@ -19,8 +19,10 @@ export default function Navbar() {
     { href: "/visa-finder", label: t.nav.visaFinder },
     { href: "/sop-generator", label: t.nav.sopGenerator },
     { href: "/document-checker", label: t.nav.docChecker },
-    { href: "/interview-coach", label: lang === "ur" ? "انٹرویو کوچ" : "Interview Coach" },
-    { href: "/application-form", label: lang === "ur" ? "فارم آٹو فل" : "Form Auto-Fill" },
+    { href: "/interview-coach", label: lang === "ur" ? "انٹرویو کوچ" : "Interview" },
+    { href: "/rejection-recovery", label: lang === "ur" ? "ریکوری" : "Recovery" },
+    { href: "/financial-planner", label: lang === "ur" ? "بجٹ" : "Budget" },
+    { href: "/application-form", label: lang === "ur" ? "فارم" : "Forms" },
     { href: "/pricing", label: t.nav.pricing },
   ]
 
