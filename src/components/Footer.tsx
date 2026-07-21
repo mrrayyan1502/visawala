@@ -34,6 +34,8 @@ export default function Footer() {
               <li><a href="/visa-finder" className="hover:text-blue-400 transition-colors">{t.nav.visaFinder}</a></li>
               <li><a href="/sop-generator" className="hover:text-blue-400 transition-colors">{t.nav.sopGenerator}</a></li>
               <li><a href="/document-checker" className="hover:text-blue-400 transition-colors">{t.nav.docChecker}</a></li>
+              <li><a href="/interview-coach" className="hover:text-blue-400 transition-colors">{lang === "ur" ? "انٹرویو کوچ" : "Interview Coach"}</a></li>
+              <li><a href="/application-form" className="hover:text-blue-400 transition-colors">{lang === "ur" ? "فارم آٹو فل" : "Form Auto-Fill"}</a></li>
               <li><a href="/pricing" className="hover:text-blue-400 transition-colors">{t.nav.pricing}</a></li>
             </ul>
           </div>
